@@ -1,0 +1,43 @@
+version: "3.1"
+
+intents:
+  - greet
+  - bank_address
+  - services
+  - check_account
+  - select_account
+  - bank_details
+  - overdraft
+  - goodbye
+
+responses:
+  utter_greet:
+  - text: "Olá, sou a Aura. Sua assistente bancária. Em que posso te ajudar?"
+
+  utter_bank_address:
+  - text: "O endereço do banco é Av. B, Centro, Rio Grande, RS. Posso te ajudar mais alguma coisa?"
+
+  utter_services:
+  - text: "O banco oferece transferencias bancárias, consórcio e financiamento. Posso te ajudar mais alguma coisa?"
+
+  utter_check_account:
+  - text: "Qual conta deseja verificar? Conta 01, Conta 02 ou Conta 03?"
+
+  utter_select-account:
+  - text: "Sua conta possui o saldo de R$ 1.500. Posso te ajudar mais alguma coisa?"
+
+  utter_bank_details:
+  - text: "Os dados da sua conta são: Agência 01, Banco 999, Saldo 1000,00. Posso te ajudar mais alguma coisa?"
+
+  utter_overdraft:
+  - text: "O limite do seu cheque especial é de R$ 500. Posso te ajudar mais alguma coisa?"
+
+  utter_goodbye:
+  - text: "Até mais. Se precisar de mais ajuda com sua conta é só entrar em contato."
+
+  utter_default:
+  - text: "Desculpe, não entendi. Pode repetir?"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

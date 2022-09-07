@@ -1,0 +1,43 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- story: happy path 2
+  steps:
+  - intent: bank_address
+  - action: utter_bank_address
+
+- story: happy path 3
+  steps:
+  - intent: services
+  - action: utter_services
+
+- story: happy path 4
+  steps:
+  - intent: check_account
+  - action: utter_check_account
+  
+- story: happy path 5
+  steps: 
+  - intent: select_account
+  - action: utter_select-account
+  
+- story: happy path 6
+  steps:
+  - intent: bank_details
+  - action: utter_bank_details
+
+- story: happy path 7
+  steps: 
+  - intent: overdraft
+  - action: utter_overdraft
+
+- story: happy path 8
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye

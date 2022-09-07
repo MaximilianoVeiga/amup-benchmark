@@ -1,0 +1,59 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - Olá
+    - Oi
+    - Eai
+    - Bom dia
+    - Boa tarde
+    - Boa noite
+
+- intent: bank_address
+  examples: |
+    - Qual endereço do banco
+    - Endereço do banco
+    - Endereço da agência
+    - Endereço da agência bancária
+
+- intent: services
+  examples: |
+    - Quais serviços o banco oferece
+    - Quais serviços o banco tem
+    - Quais serviços o banco disponibiliza
+    - Quais serviços o banco oferece
+    - Quais serviços o banco tem
+    - Quais serviços o banco disponibiliza
+
+- intent: check_account
+  examples: |
+    - Quero consultar minha conta
+    - Quero consultar minha conta corrente
+    - Checar minha conta
+    - Checar minha conta corrente
+
+- intent: select_account
+  examples: |
+    - Conta 01
+    - Conta 02
+    - Conta 03
+
+- intent: bankdetails
+  examples: |
+    - Quero saber os dados da minha conta
+    - Quero saber os dados da minha conta corrente
+    - Quero saber os dados da minha conta poupança
+
+- intent: overdraft
+  examples: |
+    - Quero saber sobre o cheque especial
+    - Quero saber sobre o cheque especial da minha conta
+    - Quero saber sobre o cheque especial da minha conta corrente
+    - Quero saber sobre o cheque especial da minha conta poupança
+
+- intent: goodbye
+  examples: |
+    - Até mais
+    - Até logo
+    - Tchau

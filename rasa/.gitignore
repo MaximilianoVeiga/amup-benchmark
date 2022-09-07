@@ -12,7 +12,7 @@ events.db-wal
 rasa.db
 *.db*
 
-credentials.yaml
+credentials.yml
 
 ### Rasa visualize ###
 graph.html
