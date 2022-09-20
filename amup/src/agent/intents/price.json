@@ -1,0 +1,59 @@
+{
+	"id": "UsBPoBMn6dfaUowUjMmxCs",
+	"name": "Price Intent",
+	"slug": "price",
+	"webhookUsed": false,
+	"fallbackIntent": false,
+	"endInteraction": false,
+	"priority": 500000,
+	"utterances": [
+		"valores",
+		"valor dos serviços",
+		"valor",
+		"preço",
+		"quanto custa"
+	],
+	"inputContexts": [],
+	"outputContexts": [],
+	"responses": [
+		{
+			"parameters": [],
+			"message": [
+				{
+					"type": "message",
+					"plataform": "telegram",
+					"text": [
+						"O preço dos serviços é R$ 100,00 para corte com máquina e tesoura e R$ 140,00 para barba."
+					]
+				}
+			]
+		},
+		{
+			"parameters": [],
+			"message": [
+				{
+					"type": "message",
+					"plataform": "telegram",
+					"text": [
+						"Posso te ajudar em mais algo?"
+					]
+				}
+			]
+		},
+		{
+			"parameters": [],
+			"message": [
+				{
+					"type": "suggestions",
+					"plataform": "telegram",
+					"text": [
+						"Agendar",
+						"Horário de Funcionamento",
+						"Valores",
+						"Menu"
+					]
+				}
+			]
+		}
+	]
+}

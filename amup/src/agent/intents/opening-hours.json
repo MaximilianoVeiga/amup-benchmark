@@ -1,0 +1,60 @@
+{
+	"id": "nDYcJnZEKT5unU4TknTRlR",
+	"name": "Opening Hours Intent",
+	"slug": "opening-hours",
+	"webhookUsed": false,
+	"fallbackIntent": false,
+	"endInteraction": false,
+	"priority": 500000,
+	"utterances": [
+		"qual é o horário de atendimento",
+		"horário de funcionamento",
+		"horário",
+		"funcionamento",
+		"horário de atendimento",
+		"horário de atendimento da barbearia"
+	],
+	"inputContexts": [],
+	"outputContexts": [],
+	"responses": [
+		{
+			"parameters": [],
+			"message": [
+				{
+					"type": "message",
+					"plataform": "telegram",
+					"text": [
+						"Nosso horário de funcionamento é das 8h às 9h e das 13h às 16h."
+					]
+				}
+			]
+		},
+		{
+			"parameters": [],
+			"message": [
+				{
+					"type": "message",
+					"plataform": "telegram",
+					"text": [
+						"Posso te ajudar em mais algo?"
+					]
+				}
+			]
+		},
+		{
+			"parameters": [],
+			"message": [
+				{
+					"type": "suggestions",
+					"plataform": "telegram",
+					"text": [
+						"Agendar",
+						"Horário de Funcionamento",
+						"Valores",
+						"Menu"
+					]
+				}
+			]
+		}
+	]
+}

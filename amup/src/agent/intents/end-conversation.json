@@ -1,0 +1,32 @@
+{
+	"id": "tg7MjTfOsZFhsB4ggj8VUT",
+	"name": "End Conversation Intent",
+	"slug": "end-conversation",
+	"webhookUsed": false,
+	"fallbackIntent": false,
+	"endInteraction": true,
+	"priority": 500000,
+	"utterances": [
+		"até mais",
+		"valeu",
+		"obrigado, tchau",
+		"era isso"
+	],
+	"inputContexts": [],
+	"outputContexts": [],
+	"responses": [
+		{
+			"parameters": [],
+			"message": [
+				{
+					"type": "message",
+					"plataform": "telegram",
+					"text": [
+						"Obrigado por entrar em contato!",
+						"Muito obrigado por conversar conosco!"
+					]
+				}
+			]
+		}
+	]
+}

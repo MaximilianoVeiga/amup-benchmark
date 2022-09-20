@@ -1,0 +1,34 @@
+{
+	"id": "oqHkGl7V7tZmmmq9cfFJ7i",
+	"name": "Service Intent",
+	"slug": "service",
+	"webhookUsed": false,
+	"fallbackIntent": false,
+	"endInteraction": false,
+	"priority": 500000,
+	"utterances": [
+		"agendar um atendimento",
+		"agendar um horário",
+		"agendar",
+		"sim",
+		"isso ae",
+		"dale",
+		"sim, vamos lá"
+	],
+	"inputContexts": [],
+	"outputContexts": [],
+	"responses": [
+		{
+			"parameters": [],
+			"message": [
+				{
+					"type": "message",
+					"plataform": "telegram",
+					"text": [
+						"Qual serviço você deseja agendar?\nEscolha o Serviço:\n\n1 - Corte com Máquina\n2 - Barba"
+					]
+				}
+			]
+		}
+	]
+}

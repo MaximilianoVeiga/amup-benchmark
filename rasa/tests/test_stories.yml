@@ -2,16 +2,9 @@
 #### If you want to learn more, please see the docs: https://rasa.com/docs/rasa/testing-your-assistant
 
 stories:
-- story: happy path 1
-  steps:
-  - user: |
-      olá
-    intent: greet
-  - action: utter_greet
-  - user: |
-      qual é o seu endereço?
-    intent: bank-address
-  - action: utter_bank_address
-  - user: |
-      quais serviços voce oferece?
-    intent: services
+  - story: happy path 1
+    steps:
+      - user: |
+          olá
+        intent: greet
+      - action: utter_greet

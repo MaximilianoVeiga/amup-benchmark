@@ -1,0 +1,63 @@
+{
+	"id": "QzsqN5RrljKxCdyBq1iacz",
+	"name": "Welcome Intent",
+	"slug": "welcome",
+	"webhookUsed": false,
+	"fallbackIntent": false,
+	"endInteraction": false,
+	"priority": 500000,
+	"utterances": [
+		"olá",
+		"oi",
+		"eai",
+		"diga",
+		"ola",
+		"dale",
+		"opa",
+		"/start",
+		"menu"
+	],
+	"inputContexts": [],
+	"outputContexts": [],
+	"responses": [
+		{
+			"parameters": [],
+			"message": [
+				{
+					"type": "message",
+					"plataform": "telegram",
+					"text": [
+						"Olá, $first_name. Você acaba de entrar em contato com o João, o assistente virtual da Barberia Secret Barbers."
+					]
+				}
+			]
+		},
+		{
+			"parameters": [],
+			"message": [
+				{
+					"type": "message",
+					"plataform": "telegram",
+					"text": [
+						"Posso te ajudar a encontrar a barbearia, consultar o horário de funcionamento ou fazer um agendamento. Então, qual o que deseja fazer?"
+					]
+				}
+			]
+		},
+		{
+			"parameters": [],
+			"message": [
+				{
+					"type": "suggestions",
+					"format": "inline",
+					"plataform": "telegram",
+					"text": [
+						"Agendar",
+						"Horário de Funcionamento",
+						"Valores"
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,52 @@
+{
+	"id": "oqHkGl7V7tZmmmq9cfFJ7i",
+	"name": "Schedule Intent",
+	"slug": "schedule",
+	"webhookUsed": false,
+	"fallbackIntent": false,
+	"endInteraction": false,
+	"priority": 500000,
+	"utterances": [
+		"barba",
+		"corte e máquina",
+		"corte com máquina",
+		"cabelo e máquina",
+		"corte",
+		"cabelo"
+	],
+	"entities": [
+		{
+			"name": "corte",
+			"type": "service",
+			"phrases": [
+				"corte e máquina",
+				"corte",
+				"corte com máquina",
+				"cabelo e máquina"
+			]
+		},
+		{
+			"name": "barba",
+			"type": "service",
+			"phrases": [
+				"barba"
+			]
+		}
+	],
+	"inputContexts": [],
+	"outputContexts": [],
+	"responses": [
+		{
+			"parameters": [],
+			"message": [
+				{
+					"type": "message",
+					"plataform": "telegram",
+					"text": [
+						"Para qual hora será seu agendamento?\nHorários disponíveis para: 19/09/2022\nServiço selecionado: $service\nPor favor, escolha o Horário\n19h:00\n20h:00"
+					]
+				}
+			]
+		}
+	]
+}

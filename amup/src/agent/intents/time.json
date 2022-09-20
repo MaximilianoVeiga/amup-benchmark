@@ -1,0 +1,37 @@
+{
+	"id": "Aqi4TOTfXXTNKzJ4JC8QIe",
+	"name": "Time Intent",
+	"slug": "time",
+	"webhookUsed": false,
+	"fallbackIntent": false,
+	"endInteraction": false,
+	"priority": 500000,
+	"utterances": [
+		"08:00",
+		"08:30",
+		"09:00",
+		"13:00",
+		"13:30",
+		"14:00",
+		"14:30",
+		"15:00",
+		"15:30",
+		"16:00"
+	],
+	"inputContexts": [],
+	"outputContexts": [],
+	"responses": [
+		{
+			"parameters": [],
+			"message": [
+				{
+					"type": "message",
+					"plataform": "telegram",
+					"text": [
+						"O serviço selecionado foi $service\nO horário selecionado foi $time\nO valor do serviço é R$ 20,00\nDeseja confirmar o agendamento?"
+					]
+				}
+			]
+		}
+	]
+}

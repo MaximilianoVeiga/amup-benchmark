@@ -1,43 +1,42 @@
 version: "3.1"
 
 stories:
+  - story: happy path
+    steps:
+      - intent: greet
+      - action: utter_greet
 
-- story: happy path
-  steps:
-  - intent: greet
-  - action: utter_greet
+  - story: consult
+    steps:
+      - intent: consult
+      - action: utter_consult
 
-- story: happy path 2
-  steps:
-  - intent: bank_address
-  - action: utter_bank_address
+  - story: location
+    steps:
+      - intent: location
+      - action: utter_location
 
-- story: happy path 3
-  steps:
-  - intent: services
-  - action: utter_services
+  - story: schedule
+    steps:
+      - intent: schedule
+      - action: utter_schedule
 
-- story: happy path 4
-  steps:
-  - intent: check_account
-  - action: utter_check_account
-  
-- story: happy path 5
-  steps: 
-  - intent: select_account
-  - action: utter_select-account
-  
-- story: happy path 6
-  steps:
-  - intent: bank_details
-  - action: utter_bank_details
+  - story: price
+    steps:
+      - intent: price
+      - action: utter_price
 
-- story: happy path 7
-  steps: 
-  - intent: overdraft
-  - action: utter_overdraft
+  - story: service
+    steps:
+      - intent: service
+      - action: utter_service
 
-- story: happy path 8
-  steps:
-  - intent: goodbye
-  - action: utter_goodbye
+  - story: time
+    steps:
+      - intent: time
+      - action: utter_time
+
+  - story: goodbye
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye

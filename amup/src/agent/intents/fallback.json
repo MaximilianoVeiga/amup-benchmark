@@ -1,0 +1,38 @@
+{
+	"id": "VdoYhkqj3lG0TIV89Uu9tu",
+	"name": "Fallback Intent",
+	"slug": "None",
+	"webhookUsed": false,
+	"fallbackIntent": true,
+	"endInteraction": false,
+	"priority": 500000,
+	"utterances": [],
+	"inputContexts": [],
+	"outputContexts": [],
+	"responses": [
+		{
+			"parameters": [],
+			"message": [
+				{
+					"type": "message",
+					"plataform": "telegram",
+					"text": [
+						"Infelizmente, não captei o que deseja."
+					]
+				}
+			]
+		},
+		{
+			"parameters": [],
+			"message": [
+				{
+					"type": "message",
+					"plataform": "telegram",
+					"text": [
+						"Vamos tentar novamente?"
+					]
+				}
+			]
+		}
+	]
+}

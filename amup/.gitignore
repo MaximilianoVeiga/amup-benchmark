@@ -1,0 +1,7 @@
+/node_modules
+/lang-br
+/data/*.nlp
+.env
+dump.rdb
+model.nlp
+/src/agent/data/*.nlp

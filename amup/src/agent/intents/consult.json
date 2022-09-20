@@ -1,0 +1,30 @@
+{
+	"id": "87yAFnr7aU98P5Z9xbeW8c",
+	"name": "Consult Intent",
+	"slug": "consult",
+	"webhookUsed": true,
+	"fallbackIntent": false,
+	"endInteraction": false,
+	"priority": 500000,
+	"utterances": [
+		"consultar meu agendamento",
+		"saber sobre meu agendamento",
+		"agendar"
+	],
+	"inputContexts": [],
+	"outputContexts": [],
+	"responses": [
+		{
+			"parameters": [],
+			"message": [
+				{
+					"type": "message",
+					"plataform": "telegram",
+					"text": [
+						"Seu agendamento foi marcado para o dia $day $time."
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,57 @@
+{
+	"id": "yGdDmHc3runJCsSkmnzHam",
+	"name": "Location Intent",
+	"slug": "location",
+	"webhookUsed": false,
+	"fallbackIntent": false,
+	"endInteraction": false,
+	"priority": 500000,
+	"utterances": [
+		"qual é a localização",
+		"me diga onde fica a barbearia",
+		"qual é o endereço"
+	],
+	"inputContexts": [],
+	"outputContexts": [],
+	"responses": [
+		{
+			"parameters": [],
+			"message": [
+				{
+					"type": "message",
+					"plataform": "telegram",
+					"text": [
+						"A Barberia Secret Barbers fica na Rua dois, nº 100, Centro, São Paulo - SP, CEP: 03051-000"
+					]
+				}
+			]
+		},
+		{
+			"parameters": [],
+			"message": [
+				{
+					"type": "message",
+					"plataform": "telegram",
+					"text": [
+						"Posso te ajudar em mais algo?"
+					]
+				}
+			]
+		},
+		{
+			"parameters": [],
+			"message": [
+				{
+					"type": "suggestions",
+					"plataform": "telegram",
+					"text": [
+						"Agendar",
+						"Horário de Funcionamento",
+						"Valores",
+						"Menu"
+					]
+				}
+			]
+		}
+	]
+}
