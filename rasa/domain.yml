@@ -19,25 +19,34 @@ responses:
     - text: "Muito obrigado por conversar conosco!"
 
   utter_consult:
-    - text: "Seu agendamento foi marcado para o dia $day $time."
+    - text: "Seu agendamento foi marcado para o dia 21/09/2022 $time."
 
   utter_location:
     - text: "A Barberia Secret Barbers fica na Rua dois, nº 100, Centro, São Paulo - SP, CEP: 03051-000"
 
   utter_schedule:
-    - text: "Para qual hora será seu agendamento?\nHorários disponíveis para: 19/09/2022\nServiço selecionado: $service\nPor favor, escolha o Horário\n19h:00\n20h:00"
+    - text: "Para qual hora será seu agendamento?\nHorários disponíveis para: 19/09/2022\nServiço selecionado: $service\nPor favor, escolha o horário"
 
   utter_price:
     - text: "O preço dos serviços é R$ 100,00 para corte com máquina e tesoura e R$ 100,00 para barba."
 
   utter_service:
-    - text: "Qual serviço você deseja agendar?\nEscolha o Serviço:\n\nCorte com Máquina\nBarba"
+    - text: "Qual serviço você deseja agendar?"
 
   utter_time:
     - text: "O serviço selecionado foi $service\nO horário selecionado foi $time\nO valor do serviço é R$ 100,00\nDeseja confirmar o agendamento?"
 
+  utter_confirm:
+    - text: "Seu agendamento foi marcado para o dia 21/09/2022 às $time."
+
+  utter_deny:
+    - text: "Seu agendamento foi cancelado com sucesso!"
+
+  utter_opening_hours:
+    - text: "Nosso horário de funcionamento é das 8h às 9h e das 13h às 16h."
+
   utter_default:
-    - text: "Desculpe, não entendi. Pode repetir?"
+    - text: "Infelizmente, não captei o que deseja."
 
 session_config:
   session_expiration_time: 60

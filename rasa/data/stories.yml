@@ -21,6 +21,21 @@ stories:
       - intent: schedule
       - action: utter_schedule
 
+  - story: confirm
+    steps:
+      - intent: confirm
+      - action: utter_confirm
+
+  - story: deny
+    steps:
+      - intent: deny
+      - action: utter_deny
+
+  - story: opening_hours
+    steps:
+      - intent: opening_hours
+      - action: utter_opening_hours
+
   - story: price
     steps:
       - intent: price

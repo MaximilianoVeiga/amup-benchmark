@@ -14,7 +14,19 @@ nlu:
   examples: |
     - consultar meu agendamento
     - saber sobre meu agendamento
-    - agendar
+
+- intent: confirm
+  examples: |
+    - sim
+    - isso ai
+    - certo
+    - pode ser
+
+- intent: deny
+  examples: |
+    - não
+    - não quero
+    - cancelar
 
 - intent: location
   examples: |
@@ -44,10 +56,6 @@ nlu:
     - agendar um atendimento
 		- agendar um horário
     - agendar
-    - sim
-    - isso ae
-    - dale
-    - sim, vamos lá
 
 - intent: time
   examples: |
@@ -64,6 +72,7 @@ nlu:
 
 - intent: opening_hours
   examples: |
+    - qual é o horário de atendimento
     - horário de funcionamento
     - horário
     - funcionamento
