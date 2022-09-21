@@ -1,0 +1,28 @@
+[
+  {
+    "id": "6df4e44c-e7a0-44c9-a633-337571c3b4a7",
+    "data": [
+      {
+        "text": "saber sobre meu agendamento",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "a07e3a77-2e04-42d7-9fe3-3ecd52a4878c",
+    "data": [
+      {
+        "text": "consultar meu agendamento",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

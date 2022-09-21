@@ -1,0 +1,50 @@
+{
+  "id": "4be2e0e6-9c20-4f85-978b-cc8f0ce59ec4",
+  "name": "Time Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "bcfbc9d1-411d-4cee-9cf2-8a35391015d3",
+          "name": "time",
+          "required": false,
+          "dataType": "@sys.date-time",
+          "value": "$time",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "O serviço selecionado foi $service\nO horário selecionado foi $time\nO valor do serviço é R$ 100,00\n\nDeseja confirmar o agendamento?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,41 @@
+[
+  {
+    "id": "09e1feb2-81db-4005-bb7d-265bdd33e9e7",
+    "data": [
+      {
+        "text": "agendar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "2fa36546-0362-4d7e-a563-0eed62c0fb92",
+    "data": [
+      {
+        "text": "agendar um horário",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "9357f25f-e8eb-4090-99b2-ba6e32bf2941",
+    "data": [
+      {
+        "text": "agendar um atendimento",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

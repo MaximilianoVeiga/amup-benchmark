@@ -1,0 +1,74 @@
+{
+  "id": "160a0781-cebe-4add-bca8-a5258cf06db0",
+  "name": "Schedule Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "4755e34d-ad0a-4c98-ad09-beb5967c8b68",
+          "name": "service",
+          "required": false,
+          "dataType": "@service",
+          "value": "$service",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "telegram": {
+              "reply_markup": {
+                "inline_keyboard": [
+                  [
+                    {
+                      "text": "19:00",
+                      "callback_data": "19:00"
+                    }
+                  ],
+                  [
+                    {
+                      "callback_data": "20:00",
+                      "text": "20:00"
+                    }
+                  ],
+                  [
+                    {
+                      "callback_data": "21:00",
+                      "text": "21:00"
+                    }
+                  ]
+                ]
+              },
+              "text": "Para qual hora será seu agendamento?\nHorários disponíveis para: 21/09/2022\nServiço selecionado: $service\n\nPor favor, escolha o horário:"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

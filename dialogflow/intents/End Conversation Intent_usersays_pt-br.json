@@ -1,0 +1,54 @@
+[
+  {
+    "id": "045069a6-fe84-4333-bf8a-20b3f9c67faf",
+    "data": [
+      {
+        "text": "era isso",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "db72eea5-a5bd-4e2f-a56c-3ff4f47e92f0",
+    "data": [
+      {
+        "text": "obrigado, tchau",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "ef66737e-43c6-4c17-a16c-31fac02ce88b",
+    "data": [
+      {
+        "text": "valeu",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "9495fcc9-087a-4305-a105-774cc15ae76d",
+    "data": [
+      {
+        "text": "até mais",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

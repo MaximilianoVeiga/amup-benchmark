@@ -1,0 +1,88 @@
+[
+  {
+    "id": "0916b2d6-b832-4a56-8301-872cf23ad4a8",
+    "data": [
+      {
+        "text": "cabelo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "b6685bf3-582a-4d86-9682-fd73251ed697",
+    "data": [
+      {
+        "text": "corte",
+        "meta": "@service",
+        "alias": "service",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "09be8798-5a82-4701-9535-107ed909aa7e",
+    "data": [
+      {
+        "text": "cabelo e máquina",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "849cb979-141b-4095-a464-ed1e54094ab9",
+    "data": [
+      {
+        "text": "corte com máquina",
+        "meta": "@service",
+        "alias": "service",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "95bec9d6-f3ac-4735-a9ec-b35376c983fe",
+    "data": [
+      {
+        "text": "corte e máquina",
+        "meta": "@service",
+        "alias": "service",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "792d278f-3897-4e4f-8391-c62786a3bb34",
+    "data": [
+      {
+        "text": "barba",
+        "meta": "@service",
+        "alias": "service",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

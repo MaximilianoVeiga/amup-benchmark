@@ -1,0 +1,73 @@
+{
+  "id": "0c999fce-70a8-4779-a16a-29ea8a24d6c9",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Olá, $first_name. Você acaba de entrar em contato com o João, o assistente virtual da Barberia Secret Barbers."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "telegram": {
+              "text": "Posso te ajudar a encontrar a barbearia, consultar o horário de funcionamento ou fazer um agendamento. Então, qual o que deseja fazer?",
+              "reply_markup": {
+                "inline_keyboard": [
+                  [
+                    {
+                      "callback_data": "Agendar",
+                      "text": "Agendar"
+                    }
+                  ],
+                  [
+                    {
+                      "callback_data": "Horário de Funcionamento",
+                      "text": "Horário de Funcionamento"
+                    }
+                  ],
+                  [
+                    {
+                      "callback_data": "Valores",
+                      "text": "Valores"
+                    }
+                  ]
+                ]
+              }
+            }
+          },
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

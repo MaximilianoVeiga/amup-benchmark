@@ -1,0 +1,75 @@
+{
+  "id": "7d14c5d7-c2c1-43d5-b9fa-ad73725b1a26",
+  "name": "Location Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "A Barberia Secret Barbers fica na Rua dois, nº 100, Centro, São Paulo - SP, CEP: 03051-000"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "telegram": {
+              "reply_markup": {
+                "inline_keyboard": [
+                  [
+                    {
+                      "text": "Agendar",
+                      "callback_data": "Agendar"
+                    }
+                  ],
+                  [
+                    {
+                      "callback_data": "Horário de Funcionamento",
+                      "text": "Horário de Funcionamento"
+                    }
+                  ],
+                  [
+                    {
+                      "callback_data": "Valores",
+                      "text": "Valores"
+                    }
+                  ],
+                  [
+                    {
+                      "callback_data": "Menu",
+                      "text": "Menu"
+                    }
+                  ]
+                ]
+              },
+              "text": "Posso te ajudar em mais algo?"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

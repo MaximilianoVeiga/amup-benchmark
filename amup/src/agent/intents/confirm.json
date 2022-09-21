@@ -1,0 +1,31 @@
+{
+    "id": "NEf8VHZHbv7LbUdH5UT2k0",
+    "name": "Confirm Intent",
+    "slug": "confirm",
+    "webhookUsed": false,
+    "fallbackIntent": false,
+    "endInteraction": false,
+    "priority": 500000,
+    "utterances": [
+        "sim",
+        "isso ai",
+        "certo",
+        "pode ser"
+    ],
+    "inputContexts": [],
+    "outputContexts": [],
+    "responses": [
+        {
+            "parameters": [],
+            "message": [
+                {
+                    "type": "message",
+                    "plataform": "telegram",
+                    "text": [
+                        "Seu agendamento foi marcado para o dia 21/09/2022 às $time."
+                    ]
+                }
+            ]
+        }
+    ]
+}

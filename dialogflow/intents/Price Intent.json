@@ -1,0 +1,75 @@
+{
+  "id": "373021a1-bafb-4f6a-b8b9-22a0ee8dbc54",
+  "name": "Price Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "O preço dos serviços é R$ 100,00 para corte com máquina e tesoura e R$ 100,00 para barba."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "telegram": {
+              "text": "Posso te ajudar em mais algo?",
+              "reply_markup": {
+                "inline_keyboard": [
+                  [
+                    {
+                      "text": "Agendar",
+                      "callback_data": "Agendar"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Horário de Funcionamento",
+                      "callback_data": "Horário de Funcionamento"
+                    }
+                  ],
+                  [
+                    {
+                      "callback_data": "Valores",
+                      "text": "Valores"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Menu",
+                      "callback_data": "Menu"
+                    }
+                  ]
+                ]
+              }
+            }
+          },
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

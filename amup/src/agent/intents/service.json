@@ -9,11 +9,7 @@
 	"utterances": [
 		"agendar um atendimento",
 		"agendar um horário",
-		"agendar",
-		"sim",
-		"isso ae",
-		"dale",
-		"sim, vamos lá"
+		"agendar"
 	],
 	"inputContexts": [],
 	"outputContexts": [],
@@ -25,7 +21,21 @@
 					"type": "message",
 					"plataform": "telegram",
 					"text": [
-						"Qual serviço você deseja agendar?\nEscolha o Serviço:\n\n1 - Corte com Máquina\n2 - Barba"
+						"Qual serviço você deseja agendar?"
+					]
+				}
+			]
+		},
+		{
+			"parameters": [],
+			"message": [
+				{
+					"type": "suggestions",
+					"format": "inline",
+					"plataform": "telegram",
+					"text": [
+						"Corte com Máquina",
+						"Barba"
 					]
 				}
 			]

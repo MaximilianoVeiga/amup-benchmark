@@ -1,0 +1,67 @@
+[
+  {
+    "id": "328b1a36-cb5a-4206-8ffb-7058310a7d63",
+    "data": [
+      {
+        "text": "quanto custa",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "a1df2464-c7d0-4768-8e66-1011301dd98a",
+    "data": [
+      {
+        "text": "valores",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "945cff1a-e8b6-4feb-8f6c-5a97c808fb0e",
+    "data": [
+      {
+        "text": "preço",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "f2209951-4b06-4c97-a72d-ee4459305eab",
+    "data": [
+      {
+        "text": "valor",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "24f45401-35aa-4de7-9b25-150165a13ab8",
+    "data": [
+      {
+        "text": "valor dos serviços",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

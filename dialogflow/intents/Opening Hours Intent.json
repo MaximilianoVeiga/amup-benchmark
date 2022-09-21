@@ -1,0 +1,75 @@
+{
+  "id": "b7f9cf2e-1279-4ecf-89b5-62fa684fb3fd",
+  "name": "Opening Hours Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Nosso horário de funcionamento é das 8h às 9h e das 13h às 16h."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "telegram": {
+              "text": "Posso te ajudar em mais algo?",
+              "reply_markup": {
+                "inline_keyboard": [
+                  [
+                    {
+                      "callback_data": "Agendar",
+                      "text": "Agendar"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Horário de Funcionamento",
+                      "callback_data": "Horário de Funcionamento"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Valores",
+                      "callback_data": "Valores"
+                    }
+                  ],
+                  [
+                    {
+                      "callback_data": "Menu",
+                      "text": "Menu"
+                    }
+                  ]
+                ]
+              }
+            }
+          },
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

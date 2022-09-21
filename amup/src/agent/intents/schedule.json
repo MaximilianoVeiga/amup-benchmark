@@ -43,7 +43,22 @@
 					"type": "message",
 					"plataform": "telegram",
 					"text": [
-						"Para qual hora será seu agendamento?\nHorários disponíveis para: 19/09/2022\nServiço selecionado: $service\nPor favor, escolha o Horário\n19h:00\n20h:00"
+						"Para qual hora será seu agendamento?\nHorários disponíveis para: 21/09/2022\nServiço selecionado: $service\n\nPor favor, escolha o horário:"
+					]
+				}
+			]
+		},
+		{
+			"parameters": [],
+			"message": [
+				{
+					"type": "suggestions",
+					"format": "inline",
+					"plataform": "telegram",
+					"text": [
+						"19:00",
+						"20:00",
+						"21:00"
 					]
 				}
 			]

@@ -1,0 +1,45 @@
+[
+  {
+    "id": "9fc6a808-d5cc-4e25-99f2-7813afb58409",
+    "data": [
+      {
+        "text": "qual é o endereço",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "50c61577-78bc-462b-a42b-02ce0d0d0b82",
+    "data": [
+      {
+        "text": "me diga onde fica ",
+        "userDefined": false
+      },
+      {
+        "text": "a barbearia",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "49f596a5-8f67-45be-9d23-0b0a6e87d35c",
+    "data": [
+      {
+        "text": "qual é a localização",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

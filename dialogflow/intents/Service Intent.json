@@ -1,0 +1,53 @@
+{
+  "id": "e1b4195c-a5b3-459d-b8f2-024eb132ac19",
+  "name": "Service Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "telegram": {
+              "text": "Qual serviço você deseja agendar?",
+              "reply_markup": {
+                "inline_keyboard": [
+                  [
+                    {
+                      "text": "Corte com Máquina",
+                      "callback_data": "Corte com Máquina"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Barba",
+                      "callback_data": "Barba"
+                    }
+                  ]
+                ]
+              }
+            }
+          },
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
